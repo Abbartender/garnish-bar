@@ -679,9 +679,11 @@
   .reveal.in{opacity:1;transform:none}
 
   /* ------------- Responsive ------------- */
-  @media (max-width:980px){
-    nav.top{padding:14px 20px}
-    nav.top .links{display:none}
+ @media (max-width:980px){
+  .scroll-hint{display:none}  /* ← AÑADIR ESTA LÍNEA AQUÍ */
+  nav.top{padding:14px 20px}
+  nav.top .links{display:none}
+ 
     section{padding:90px 24px}
     .manifesto .grid,.whisky .grid,.visit .grid{grid-template-columns:1fr;gap:50px}
     .pillars-grid{grid-template-columns:1fr;gap:20px}
